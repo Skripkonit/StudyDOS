@@ -5,7 +5,7 @@
 
 ## Я использую Windows 10 поэтому команды таковы:
 
-Чтобы собрать Docker Image:  ```docker build .\buildenv\ -t os-dev```
+Чтобы собрать Docker Image:  ```docker build . -t os-dev```
 
 Запустить контейнер Docker'a: ```docker run --rm -it -v "${pwd}:/root/env" os-dev```
 
